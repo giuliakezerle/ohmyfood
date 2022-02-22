@@ -1,0 +1,164 @@
+body {
+    font-family: $font-text;
+    font-size: 13px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+/* section titles*/
+h2 {
+    font-family: $font-text;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: $font-text;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+p {
+    font-family: $font-text;
+    margin: 0;
+    font-weight: 600;
+}
+.p {
+    &--bigger {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+        &--start {
+            font-weight: 300;
+            text-align:left;
+            margin-left: 7px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+    }
+    &--card {
+    font-size: 14px;
+    font-weight: 400;
+    }
+    &--new {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+.menu__choices-title p:before {
+    
+    width: 60%;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid #99e2d0;
+}
+
+button {
+    font-family: $font-text;
+
+}
+
+.restaurants-h2 {
+    padding-bottom: 10px;
+    @media screen and (min-width: 768px) {
+        @include flex-center(space-between, column);
+    }
+}
+
+/* menu pages - restaurant names */
+
+.menu-page__h2 {
+    font-family: $font-title;
+    font-weight: 300;
+    margin: 0px;
+    margin-left: 5px;
+    font-size: 22px;
+    @media screen and (min-width: 768px) {
+        margin-right: 10px;
+    }
+}
+
+h1 {
+    font-family: $font-title;
+}
+
+.h3--menu {
+    width: 100%;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.p {
+    &--menu {
+    font-weight: 300;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    &:hover{
+        position:relative;
+    }
+
+    }
+    &--price {
+        font-weight: bold;
+        margin: 0px;
+        position: right;
+    }
+    &--footer {
+        font-weight: 400;
+        margin-bottom: 3px;
+    }
+
+}
+
+
+i.heart-menu {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.underlined:before {
+        content: "";
+        position: absolute;
+        width: 32px;
+        border-bottom: 2px solid $color-tertiary;
+        margin-top: -10px;
+        margin-left: 7px;
+}
+
+/* footer */
+
+
+.h3 {
+    &--footer {
+        font-family: $font-title;
+        font-size: 16px;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+}
+
+.fa-utensils {
+    font-size: 11px;
+    margin-right: 10px;
+}
+.fa-handshake-angle {
+    font-size: 8px;
+    margin-right: 10px;
+}
+
+.a {
+    &--contact {
+        color: $color-white;
+    }
+}

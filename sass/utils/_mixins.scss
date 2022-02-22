@@ -1,0 +1,18 @@
+@mixin flex-center($justify, $direction) {
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+
+@mixin header-shadow {
+    box-shadow: inset 0 7px 6px -7px rgba(0,0,0,0.4);
+}
+
+@mixin shadow {
+    box-shadow: 0 .2rem .5rem rgba(0,0,0, 0.1);
+}
+
+@mixin shadow-hover {
+    box-shadow: 0 .8rem .8rem rgba(0,0,0, 0.2);
+}

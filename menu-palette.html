@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ohmyfood</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link type="text/css" rel="stylesheet" href="public/css/normalize.css">
+  <link rel="stylesheet" href="public/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="header-top">
+      <a href="index.html">
+        <i class="fa-solid fa-arrow-left"></i>
+      </a>
+      <img class="header-top__logo" src="public/images/logo/ohmyfood.png" alt="Ohmyfood logo"/>
+    </div>
+    <div class="header-bottom"></div>
+      <img class="header-bottom__img" src="public/images/restaurants/palette.jpg" alt="The Full Palette restaurant image"/>
+    </div>
+    <!-- add return button on menu pages -->
+</header>   
+
+
+
+<main> 
+<!-- block restaurants: each card (4 total) will link to separate page -->
+<section class="menu-page">
+  <div class="menu-page__top">
+  <h2 class="menu-page__h2">The Full Palette</h2>
+  <i class="heart-menu far fa-heart"></i>
+  </div>
+
+  <div class="menu-page__blocks">
+    <p class="p--bigger--start">ENTREES</p>
+    <span class="underlined"></span>
+    <div class="menu-page__blocks-container">
+      <div class="menu-page__blocks-container-card delay-1"> 
+        <h3 class="h3--menu">Escargot</h3>
+        <p class="p--menu">With southern French spices</p>
+        <span class="p--price">25€</span>
+      </div>
+      <div class="menu-page__blocks-container-card-select">
+        <span class="menu-page__blocks-container-card-select-icon">
+          <i class="fas fa-check-circle"></i>
+        </span>
+    </div>  
+
+      <div class="menu-page__blocks-container-card delay-2"> 
+        <h3 class="h3--menu">Duck Foie Gras</h3>
+        <p class="p--menu">With black truffle shavings</p>
+        <span class="p--price">35€</span>
+      </div>
+
+      <div class="menu-page__blocks-container-card delay-3"> 
+        <h3 class="h3--menu">Fried egg</h3>
+        <p class="p--menu">...</p>
+        <span class="p--price">20€</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="menu-page__blocks">
+    <p class="p--bigger--start">MAIN DISH</p>
+    <span class="underlined"></span>
+    <div class="menu-page__blocks-container">
+      <div class="menu-page__blocks-container-card delay-1"> 
+        <h3 class="h3--menu">Herb-Encrusted Steak</h3>
+        <p class="p--menu">With delicately sliced and seasoned veg...</p>
+        <span class="p--price">40€</span>
+      </div>
+
+      <div class="menu-page__blocks-container-card delay-2"> 
+        <h3 class="h3--menu">Ox Tail Shepard's Pie</h3>
+        <p class="p--menu">With black truffle and pureed parsnips</p>
+        <span class="p--price">35€</span>
+      </div>
+
+      <div class="menu-page__blocks-container-card delay-3"> 
+        <h3 class="h3--menu">Filet of Sole</h3>
+        <p class="p--menu">With citrus dressing</p>
+        <span class="p--price">44€</span>
+      </div>
+    </div>
+  </div>
+      
+  <div class="menu-page__blocks">
+    <p class="p--bigger--start">Desserts</p>
+    <span class="underlined"></span>
+    <div class="menu-page__blocks-container">
+      <div class="menu-page__blocks-container-card delay-1">       
+        <h3 class="h3--menu">Paris-Brest</h3>
+        <p class="p--menu">Revisited</p>
+        <span class="p--price">18€</span>
+      </div>
+
+      <div class="menu-page__blocks-container-card delay-2"> 
+        <h3 class="h3--menu">Chocolate Macaroons</h3>
+        <p class="p--menu">With vanilla ice cream</p>
+        <span class="p--price">22€</span>
+      </div>
+
+      <div class="menu-page__blocks-container-card delay-3"> 
+        <h3 class="h3--menu">Chocolate Mousse</h3>
+        <p class="p--menu">With spices and black truffle</p>
+        <span class="p--price">22€</span>
+      </div>
+    </div>
+  </div>
+
+  <button class="btn btn--order btn--gradient">Order</button>
+
+
+</section>
+</main>
+
+
+
+
+
+<footer class="footer">
+  <!-- block footer - "When you click on Contact, a link to an email address is made."" -->
+  <div>
+    <p class="h3--footer">ohmyfood</p>
+  </div>
+  
+  <ol>
+    <li class="footer-topTwo">
+      <i class="fa-solid fa-utensils"></i>
+      <p class="p--footer">Suggest a restaurant</p>
+    </li>
+    <li class="footer-topTwo">
+      <i class="fa-solid fa-handshake-angle"></i>
+      <p class="p--footer">Become a partner</p>
+    </li>
+    <li class="p--footer">Legal</li>
+    <li class="p--footer"><a class="a--contact" href="mailto:ohmyfood@example.com">Contact</a></li>
+  </ol>
+  
+  </footer>
+
+
+
+
+</body>
+
+
+
+
+</html>

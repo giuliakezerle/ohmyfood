@@ -1,0 +1,9 @@
+.footer {
+    color: $color-white;
+    background-color: lighten($color-black, 30%);
+    padding: 25px 20px;   
+    &-topTwo {
+        @include flex-center(flex-start, row);
+    } 
+}
+

@@ -1,0 +1,29 @@
+.btn {
+    @include flex-center(center, column);
+    font-size: 13px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: none;
+    @include shadow;
+    transition: all 400ms;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+        @include shadow-hover;
+    }
+    &--gradient {
+        color: $color-white;
+        background: linear-gradient(to bottom right, $color-secondary, $color-primary);
+        &:hover {
+            background: linear-gradient(to bottom right, lighten($color-secondary, 100%), lighten($color-primary, 5%));
+            transform: scale(1.13);
+            font-weight: bold;
+        }
+    }
+    &--order {
+        width: 140px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+
+    }
+}
