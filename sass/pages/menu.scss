@@ -39,7 +39,7 @@
                     margin-bottom: 10px;
                     cursor: pointer;
                     @include shadow;
-                    transition: all 1000ms;
+                    transition: all 500ms;
                     overflow: hidden;
                     text-overflow: ellipsis;
                     display: flex;
@@ -50,7 +50,7 @@
                         flex-direction: column;
                         text-overflow: ellipsis;
                         overflow: hidden;
-                        transition: all 1000ms;
+                        transition: all 500ms;
                         padding-left: 10px;
                         &-description {
                             display: flex;
@@ -74,7 +74,7 @@
                         white-space: nowrap; 
                         transform: translateX(100px);
                         cursor: pointer;
-                        transition: all 1000ms;
+                        transition: all 500ms;
                         margin-left: 5px;
                     }
 
@@ -89,7 +89,7 @@
                         white-space: nowrap; 
                         transform: translateX(100px);
                         cursor: pointer;
-                        transition: all 1000ms;
+                        transition: all 500ms;
                         margin-left: 5px;
                     }
 
@@ -120,7 +120,7 @@
                     }
                     }
                     .fa-check-circle {
-                    transition: transform 1000ms;
+                    transition: transform 500ms;
                     }
                             }
                             }

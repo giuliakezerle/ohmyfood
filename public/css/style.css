@@ -544,7 +544,7 @@ i.heart-menu {
   margin-bottom: 10px;
   cursor: pointer;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
-  transition: all 1000ms;
+  transition: all 500ms;
   overflow: hidden;
   text-overflow: ellipsis;
   display: flex;
@@ -556,7 +556,7 @@ i.heart-menu {
   flex-direction: column;
   text-overflow: ellipsis;
   overflow: hidden;
-  transition: all 1000ms;
+  transition: all 500ms;
   padding-left: 10px;
 }
 .menu-page__blocks-container-card__text-description {
@@ -579,7 +579,7 @@ i.heart-menu {
   white-space: nowrap;
   transform: translateX(100px);
   cursor: pointer;
-  transition: all 1000ms;
+  transition: all 500ms;
   margin-left: 5px;
 }
 .menu-page__blocks-container-card__checkbigger {
@@ -593,7 +593,7 @@ i.heart-menu {
   white-space: nowrap;
   transform: translateX(100px);
   cursor: pointer;
-  transition: all 1000ms;
+  transition: all 500ms;
   margin-left: 5px;
 }
 .menu-page__blocks-container-card:hover > .menu-page__blocks-container-card__check {
@@ -624,7 +624,7 @@ i.heart-menu {
   transform: rotate(1440deg);
 }
 .menu-page__blocks-container .fa-check-circle {
-  transition: transform 1000ms;
+  transition: transform 500ms;
 }
 
 /*# sourceMappingURL=style.css.map */
