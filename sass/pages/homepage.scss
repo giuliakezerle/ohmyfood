@@ -77,7 +77,6 @@
     }
     &-container {
         @include flex-center(flex-start, column);
-
         &__card {
         background-color: $color-white;
         border-radius: 15px;

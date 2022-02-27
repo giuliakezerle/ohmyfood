@@ -91,34 +91,36 @@ h1 {
     font-family: $font-title;
 }
 
-.h3--menu {
-    width: 100%;
-    margin: 0px;
-    font-weight: 600;
-}
+
 
 .p {
-    &--menu {
-    font-weight: 300;
-    font-size: 12px;
-    text-overflow: ellipsis;
-    overflow:hidden;
-    white-space: nowrap;
-    &:hover{
-        position:relative;
-    }
-
-    }
-    &--price {
-        font-weight: bold;
-        margin: 0px;
-        position: right;
-    }
     &--footer {
         font-weight: 400;
         margin-bottom: 3px;
     }
 
+}
+
+.h3--menu {
+    width: 200px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+.menu-page__blocks-container-card__text-description--price {
+    font-weight: bold;
+    margin: 0px;
+    position: right;
+    padding-bottom: 5px;
+}
+.menu-page__blocks-container-card__text-description--ingredients {
+    font-weight: 300;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
 }
 
 

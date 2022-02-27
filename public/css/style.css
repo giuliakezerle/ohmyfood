@@ -45,14 +45,20 @@
 .loader {
   position: absolute;
   z-index: 1001;
-  top: 45%;
-  left: 45%;
+  left: 25%;
+  top: 50%;
   border-top: 3px solid #9356DC;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   animation: spin 500ms linear 2;
   opacity: 0;
+}
+@media screen and (min-width: 768px) {
+  .loader {
+    left: 46%;
+    top: 46%;
+  }
 }
 
 @keyframes fade-in {
@@ -184,30 +190,33 @@ h1 {
   font-family: "Shrikhand", cursive;
 }
 
-.h3--menu {
-  width: 100%;
-  margin: 0px;
-  font-weight: 600;
+.p--footer {
+  font-weight: 400;
+  margin-bottom: 3px;
 }
 
-.p--menu {
+.h3--menu {
+  width: 200px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.menu-page__blocks-container-card__text-description--price {
+  font-weight: bold;
+  margin: 0px;
+  position: right;
+  padding-bottom: 5px;
+}
+
+.menu-page__blocks-container-card__text-description--ingredients {
   font-weight: 300;
   font-size: 12px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-}
-.p--menu:hover {
-  position: relative;
-}
-.p--price {
-  font-weight: bold;
-  margin: 0px;
-  position: right;
-}
-.p--footer {
-  font-weight: 400;
-  margin-bottom: 3px;
 }
 
 i.heart-menu {
@@ -495,11 +504,7 @@ i.heart-menu {
   margin-top: -45px;
   position: relative;
   z-index: 0;
-}
-@media screen and (min-width: 768px) {
-  .menu-page {
-    width: 100%;
-  }
+  width: 100%;
 }
 .menu-page__top {
   padding: 20px 0px 0px 0px;
@@ -511,25 +516,115 @@ i.heart-menu {
 }
 @media screen and (min-width: 768px) {
   .menu-page__top {
-    justify-content: center;
+    justify-items: center;
+    width: 30%;
   }
 }
 .menu-page__blocks {
   margin-top: 30px;
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .menu-page__blocks {
+    width: 30%;
+  }
+}
+.menu-page__blocks-container {
+  backface-visibility: hidden;
+  justify-content: center;
+  flex-direction: column;
+}
 .menu-page__blocks-container-card {
-  display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   background-color: #fff;
   width: 100%;
   height: fit-content;
-  border-radius: 15px;
+  border-radius: 10px;
   margin-bottom: 10px;
-  padding: 10px;
-  padding-bottom: 8px;
   cursor: pointer;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+  transition: all 1000ms;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+}
+.menu-page__blocks-container-card__text {
+  display: flex;
+  flex: 100%;
+  white-space: wrap;
+  flex-direction: column;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: all 1000ms;
+  padding-left: 10px;
+}
+.menu-page__blocks-container-card__text-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-page__blocks-container-card__text-description p {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.menu-page__blocks-container-card__check {
+  flex: 0%;
+  color: #fff;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  background-color: #99E2D0;
+  font-size: 22px;
+  text-align: center;
+  white-space: nowrap;
+  transform: translateX(100px);
+  cursor: pointer;
+  transition: all 1000ms;
+  margin-left: 5px;
+}
+.menu-page__blocks-container-card__checkbigger {
+  flex: 0%;
+  color: #fff;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  background-color: #99E2D0;
+  font-size: 22px;
+  text-align: center;
+  white-space: nowrap;
+  transform: translateX(100px);
+  cursor: pointer;
+  transition: all 1000ms;
+  margin-left: 5px;
+}
+.menu-page__blocks-container-card:hover > .menu-page__blocks-container-card__check {
+  flex: 35%;
+  transform: translateX(0px);
+  background-color: #99E2D0;
+  cursor: pointer;
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .menu-page__blocks-container-card:hover > .menu-page__blocks-container-card__check {
+    flex: 15%;
+  }
+}
+.menu-page__blocks-container-card:hover > .menu-page__blocks-container-card__checkbigger {
+  flex: 35%;
+  transform: translateX(0px);
+  background-color: #99E2D0;
+  cursor: pointer;
+  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .menu-page__blocks-container-card:hover > .menu-page__blocks-container-card__checkbigger {
+    flex: 15%;
+  }
+}
+.menu-page__blocks-container-card:hover .fa-check-circle {
+  transform: rotate(1440deg);
+}
+.menu-page__blocks-container .fa-check-circle {
+  transition: transform 1000ms;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -30,14 +30,18 @@
 .loader {
     position: absolute;
     z-index: 1001;
-    top: 45%;
-    left: 45%;
+    left: 25%;
+    top: 50%;
     border-top: 3px solid $color-primary;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     animation: spin 500ms linear 2;
     opacity: 0;
+    @media screen and (min-width: 768px) {
+        left: 46%;
+        top: 46%;
+    }
 }
 
 @keyframes fade-in {
@@ -66,9 +70,4 @@
 }
 
 
-.menu-page__blocks-container-card {
-    
-}
 
-
-  
