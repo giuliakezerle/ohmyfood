@@ -207,7 +207,6 @@ h1 {
 .menu-page__blocks-container-card__text-description--price {
   font-weight: bold;
   margin: 0px;
-  position: right;
   padding-bottom: 5px;
 }
 
@@ -552,7 +551,6 @@ i.heart-menu {
 .menu-page__blocks-container-card__text {
   display: flex;
   flex: 100%;
-  white-space: wrap;
   flex-direction: column;
   text-overflow: ellipsis;
   overflow: hidden;
