@@ -59,4 +59,4 @@ Ohmyfood is a new startup that wants to make a name for itself in the restaurant
   * [Project Brief](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Web%20Developer%20P3/Creative%20Brief%20-%20Ohmyfood!.pdf)
   * [Mockups](https://course.oc-static.com/projects/Front-End+V2/P3+CSS+animations/Projet+3+-+ohmyfood+EN.zip)
   * [Link to Web Page](https://giuliakezerle.github.io/ohmyfood/index.html)
-  * {Link to Repository](https://github.com/giuliakezerle/ohmyfood)
+  * [Link to Repository](https://github.com/giuliakezerle/ohmyfood)
